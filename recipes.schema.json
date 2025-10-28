@@ -1,0 +1,236 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Recipe Dataset",
+  "type": "object",
+  "required": [
+    "_meta",
+    "recipes"
+  ],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": [
+        "version",
+        "records",
+        "created_utc"
+      ],
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "records": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "created_utc": {
+          "type": "string"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_versions": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "recipes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "description",
+          "cuisine",
+          "course",
+          "tags",
+          "dietary_tags",
+          "servings",
+          "prep_time_minutes",
+          "cook_time_minutes",
+          "total_time_minutes",
+          "difficulty",
+          "ingredients",
+          "steps",
+          "equipment",
+          "nutrition_per_serving",
+          "date_added",
+          "author"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-fA-F-]{36}$"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "cuisine": {
+            "type": "string"
+          },
+          "course": {
+            "type": "string",
+            "enum": [
+              "Breakfast",
+              "Lunch",
+              "Dinner",
+              "Snack",
+              "Dessert",
+              "Drink"
+            ]
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "dietary_tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "servings": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "prep_time_minutes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "cook_time_minutes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "total_time_minutes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "difficulty": {
+            "type": "string",
+            "enum": [
+              "Easy",
+              "Medium",
+              "Hard"
+            ]
+          },
+          "ingredients": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "quantity",
+                "unit",
+                "item",
+                "prep"
+              ],
+              "properties": {
+                "quantity": {
+                  "type": [
+                    "number",
+                    "integer"
+                  ]
+                },
+                "unit": {
+                  "type": "string"
+                },
+                "item": {
+                  "type": "string"
+                },
+                "prep": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "equipment": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "allergens": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "nutrition_per_serving": {
+            "type": "object",
+            "required": [
+              "calories",
+              "protein_g",
+              "carbs_g",
+              "fat_g",
+              "fiber_g",
+              "sugar_g",
+              "sodium_mg"
+            ],
+            "properties": {
+              "calories": {
+                "type": "integer"
+              },
+              "protein_g": {
+                "type": "integer"
+              },
+              "carbs_g": {
+                "type": "integer"
+              },
+              "fat_g": {
+                "type": "integer"
+              },
+              "fiber_g": {
+                "type": "integer"
+              },
+              "sugar_g": {
+                "type": "integer"
+              },
+              "sodium_mg": {
+                "type": "integer"
+              }
+            },
+            "additionalProperties": false
+          },
+          "author": {
+            "type": "string"
+          },
+          "source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "date_added": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}
