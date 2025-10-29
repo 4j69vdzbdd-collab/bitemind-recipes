@@ -1,0 +1,23 @@
+[
+  {
+    "id": 2,
+    "name": "Chicken Caesar Wrap",
+    "servings": 2,
+    "photo": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg",
+    "ingredients": [
+      { "qty": 2, "unit": "pc", "name": "Tortilla wraps" },
+      { "qty": 150, "unit": "g", "name": "Cooked chicken breast" },
+      { "qty": 50, "unit": "g", "name": "Lettuce" },
+      { "qty": 30, "unit": "g", "name": "Parmesan cheese" },
+      { "qty": 2, "unit": "tbsp", "name": "Caesar dressing" }
+    ],
+    "steps": [
+      "Lay out the wraps and spread Caesar dressing evenly.",
+      "Add lettuce, chicken, and Parmesan, then roll tightly."
+    ],
+    "nutrition": [
+      { "label": "Calories", "value": "410 kcal" },
+      { "label": "Protein", "value": "35g" }
+    ]
+  }
+]
