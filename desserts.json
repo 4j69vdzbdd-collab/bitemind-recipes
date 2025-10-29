@@ -1,0 +1,24 @@
+[
+  {
+    "id": 4,
+    "name": "Chocolate Mousse",
+    "servings": 4,
+    "photo": "https://www.themealdb.com/images/media/meals/qxytrx1511304021.jpg",
+    "ingredients": [
+      { "qty": 200, "unit": "g", "name": "Dark chocolate" },
+      { "qty": 3, "unit": "pc", "name": "Eggs (separated)" },
+      { "qty": 50, "unit": "g", "name": "Sugar" },
+      { "qty": 200, "unit": "ml", "name": "Whipping cream" }
+    ],
+    "steps": [
+      "Melt chocolate and let cool slightly.",
+      "Whip egg whites with sugar until stiff.",
+      "Fold in yolks and whipped cream gently.",
+      "Chill for 2 hours before serving."
+    ],
+    "nutrition": [
+      { "label": "Calories", "value": "410 kcal" },
+      { "label": "Fat", "value": "28g" }
+    ]
+  }
+]
