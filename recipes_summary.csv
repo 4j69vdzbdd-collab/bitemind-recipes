@@ -1,0 +1,42 @@
+Type,Category,Count,Avg Calories,Avg Protein,Avg Carbs,Avg Fat
+Cuisine,American,360,,,,
+Cuisine,Argentinian,167,,,,
+Cuisine,Bangladeshi,161,,,,
+Cuisine,Brazilian,370,,,,
+Cuisine,British,368,,,,
+Cuisine,Cajun,180,,,,
+Cuisine,Caribbean,380,,,,
+Cuisine,Chilean,181,,,,
+Cuisine,Chinese,373,,,,
+Cuisine,Ecuadorian,163,,,,
+Cuisine,Ethiopian,373,,,,
+Cuisine,Filipino,180,,,,
+Cuisine,French,384,,,,
+Cuisine,German,188,,,,
+Cuisine,Ghanaian,194,,,,
+Cuisine,Greek,384,,,,
+Cuisine,Indian,382,,,,
+Cuisine,Italian,339,,,,
+Cuisine,Japanese,352,,,,
+Cuisine,Korean,409,,,,
+Cuisine,Lebanese,182,,,,
+Cuisine,Malaysian,172,,,,
+Cuisine,Mexican,404,,,,
+Cuisine,Middle Eastern,352,,,,
+Cuisine,Moroccan,340,,,,
+Cuisine,Nigerian,161,,,,
+Cuisine,Nordic,172,,,,
+Cuisine,Pakistani,143,,,,
+Cuisine,Persian,160,,,,
+Cuisine,Peruvian,357,,,,
+Cuisine,South African,167,,,,
+Cuisine,Spanish,340,,,,
+Cuisine,Thai,367,,,,
+Cuisine,Turkish,406,,,,
+Cuisine,Vietnamese,389,,,,
+Course,Breakfast,,142.7,8.3,15.7,4.4
+Course,Dinner,,143.0,8.3,15.6,4.5
+Course,Lunch,,142.2,8.3,15.6,4.4
+Course,Drink,,140.8,8.2,15.4,4.5
+Course,Snack,,143.6,8.4,15.6,4.5
+Course,Dessert,,141.5,8.3,15.6,4.4
