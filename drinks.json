@@ -1,0 +1,22 @@
+[
+  {
+    "id": 5,
+    "name": "Berry Smoothie",
+    "servings": 2,
+    "photo": "https://www.themealdb.com/images/media/meals/ssrrrs1503664277.jpg",
+    "ingredients": [
+      { "qty": 150, "unit": "g", "name": "Frozen berries" },
+      { "qty": 1, "unit": "pc", "name": "Banana" },
+      { "qty": 200, "unit": "ml", "name": "Yogurt" },
+      { "qty": 100, "unit": "ml", "name": "Milk" }
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth and serve chilled."
+    ],
+    "nutrition": [
+      { "label": "Calories", "value": "280 kcal" },
+      { "label": "Protein", "value": "9g" }
+    ]
+  }
+]
