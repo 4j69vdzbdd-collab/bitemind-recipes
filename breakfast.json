@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Fluffy Pancakes",
+    "servings": 4,
+    "photo": "https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg",
+    "ingredients": [
+      { "qty": 200, "unit": "g", "name": "Flour" },
+      { "qty": 2, "unit": "pc", "name": "Eggs" },
+      { "qty": 300, "unit": "ml", "name": "Milk" },
+      { "qty": 1, "unit": "tbsp", "name": "Sugar" },
+      { "qty": 1, "unit": "tsp", "name": "Baking powder" }
+    ],
+    "steps": [
+      "Mix all ingredients into a smooth batter.",
+      "Heat a pan and cook small amounts of batter on both sides until golden."
+    ],
+    "nutrition": [
+      { "label": "Calories", "value": "350 kcal" },
+      { "label": "Protein", "value": "12g" }
+    ]
+  }
+]
