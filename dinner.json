@@ -1,0 +1,27 @@
+[
+  {
+    "id": 3,
+    "name": "Spaghetti Bolognese",
+    "servings": 4,
+    "photo": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg",
+    "ingredients": [
+      { "qty": 500, "unit": "g", "name": "Minced beef" },
+      { "qty": 400, "unit": "g", "name": "Spaghetti" },
+      { "qty": 1, "unit": "pc", "name": "Onion (chopped)" },
+      { "qty": 2, "unit": "clove", "name": "Garlic" },
+      { "qty": 400, "unit": "g", "name": "Tomato passata" }
+    ],
+    "steps": [
+      "Cook spaghetti in salted water until al dente.",
+      "Brown beef in a pan, add onion and garlic.",
+      "Stir in tomato passata and simmer for 20 minutes.",
+      "Serve sauce over spaghetti."
+    ],
+    "nutrition": [
+      { "label": "Calories", "value": "520 kcal" },
+      { "label": "Protein", "value": "34g" },
+      { "label": "Carbs", "value": "60g" },
+      { "label": "Fat", "value": "14g" }
+    ]
+  }
+]
