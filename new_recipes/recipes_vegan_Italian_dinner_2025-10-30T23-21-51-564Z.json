@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Vegan Mushroom Risotto",
+    "description": "A creamy and rich risotto made with arborio rice, fresh mushrooms, garlic, and vegetable broth, finished with nutritional yeast for a cheesy flavor.",
+    "cuisine": "Italian",
+    "course": "Dinner",
+    "dietary_tags": [
+      "Vegan",
+      "Gluten-Free",
+      "Nut-Free"
+    ],
+    "ingredients": [
+      "1 cup arborio rice",
+      "4 cups vegetable broth",
+      "1 cup mushrooms, sliced",
+      "1 small onion, diced",
+      "3 cloves garlic, minced",
+      "1/2 cup nutritional yeast",
+      "1 tbsp olive oil",
+      "2 tbsp fresh parsley, chopped",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "In a saucepan, heat the vegetable broth and keep it warm on low heat.",
+      "In a large pan, heat the olive oil over medium heat. Add the onion and garlic, sauté until translucent.",
+      "Add the sliced mushrooms and cook until softened.",
+      "Stir in the arborio rice and toast it for about 2 minutes, stirring frequently.",
+      "Begin adding the warm vegetable broth, one ladle at a time, stirring frequently until the liquid is mostly absorbed before adding more.",
+      "Continue this process until the rice is creamy and al dente, about 20 minutes.",
+      "Once done, stir in nutritional yeast, salt, and pepper.",
+      "Garnish with fresh parsley before serving."
+    ],
+    "nutrition_per_serving": {
+      "calories": 350,
+      "protein": 10,
+      "fat": 8,
+      "carbohydrates": 60,
+      "fiber": 3
+    },
+    "id": "83669aa8-0dce-4088-a2b3-b0f18a022c5c",
+    "author": "AI-generated",
+    "date_added": "2025-10-30"
+  },
+  {
+    "title": "Vegan Lentil Bolognese",
+    "description": "A hearty and satisfying lentil-based sauce cooked with tomatoes, carrots, and herbs, served over your choice of pasta for a comforting Italian meal.",
+    "cuisine": "Italian",
+    "course": "Dinner",
+    "dietary_tags": [
+      "Vegan",
+      "High-Protein"
+    ],
+    "ingredients": [
+      "1 cup lentils, green or brown",
+      "1 can (15 oz) crushed tomatoes",
+      "1 onion, diced",
+      "2 carrots, diced",
+      "3 cloves garlic, minced",
+      "2 tbsp olive oil",
+      "1 tsp dried oregano",
+      "1 tsp dried basil",
+      "Salt and pepper to taste",
+      "Pasta of choice"
+    ],
+    "steps": [
+      "Cook the pasta according to package instructions. Drain and set aside.",
+      "In a large pot, heat olive oil over medium heat. Add onion and garlic, sauté until translucent.",
+      "Stir in the diced carrots and cook for 5 minutes.",
+      "Add lentils, crushed tomatoes, oregano, basil, salt, and pepper. Mix well.",
+      "Simmer the sauce for 25-30 minutes until the lentils are tender, adding more water if needed.",
+      "Serve the lentil Bolognese sauce over cooked pasta."
+    ],
+    "nutrition_per_serving": {
+      "calories": 420,
+      "protein": 20,
+      "fat": 9,
+      "carbohydrates": 68,
+      "fiber": 12
+    },
+    "id": "ef454b69-9a14-4741-874b-3418d9db163d",
+    "author": "AI-generated",
+    "date_added": "2025-10-30"
+  },
+  {
+    "title": "Eggplant Parmesan Stacks",
+    "description": "Layers of breaded and baked eggplant, marinara sauce, and vegan cheese, baked to perfection for a delightful vegan take on a classic Italian dish.",
+    "cuisine": "Italian",
+    "course": "Dinner",
+    "dietary_tags": [
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "2 medium eggplants, sliced into rounds",
+      "1 cup breadcrumbs (gluten-free if needed)",
+      "1 cup marinara sauce",
+      "1 cup vegan cheese shreds",
+      "1/4 cup nutritional yeast",
+      "2 tbsp olive oil",
+      "1 tsp dried basil",
+      "1 tsp garlic powder",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Preheat the oven to 400°F (200°C).",
+      "Toss eggplant slices with olive oil, salt, pepper, garlic powder, and dried basil.",
+      "Coat eggplant slices in breadcrumbs and place them on a baking sheet.",
+      "Bake for 25 minutes, flipping halfway through until golden brown.",
+      "In a baking dish, layer eggplant, marinara sauce, and vegan cheese, repeating until all ingredients are used.",
+      "Top with nutritional yeast before baking for an additional 15 minutes until the cheese is melted.",
+      "Allow to cool slightly before serving."
+    ],
+    "nutrition_per_serving": {
+      "calories": 320,
+      "protein": 10,
+      "fat": 15,
+      "carbohydrates": 40,
+      "fiber": 5
+    },
+    "id": "5415d681-2e75-4fd3-8821-de4b79167fd6",
+    "author": "AI-generated",
+    "date_added": "2025-10-30"
+  }
+]

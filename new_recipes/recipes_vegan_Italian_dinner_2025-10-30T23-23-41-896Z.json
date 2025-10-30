@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Vegan Mushroom Risotto",
+    "description": "A creamy and comforting risotto made with arborio rice, fresh mushrooms, vegetable broth, and a hint of white wine, all topped with fresh herbs.",
+    "cuisine": "Italian",
+    "course": "Main Course",
+    "dietary_tags": [
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "1 cup arborio rice",
+      "4 cups vegetable broth",
+      "1 cup white wine",
+      "2 cups mushrooms, sliced",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "2 tablespoons olive oil",
+      "Salt, to taste",
+      "Black pepper, to taste",
+      "Fresh parsley, chopped (for garnish)"
+    ],
+    "steps": [
+      "In a pot, heat the vegetable broth and keep it simmering over low heat.",
+      "In a large pan, heat olive oil over medium heat. Add diced onion and sauté until translucent.",
+      "Add minced garlic and sliced mushrooms, cooking until mushrooms are golden and tender.",
+      "Stir in arborio rice and cook for 2-3 minutes, allowing it to toast slightly.",
+      "Pour in the white wine and stir until it's absorbed by the rice.",
+      "Gradually add the hot vegetable broth, one ladle at a time, stirring frequently. Wait until the liquid is mostly absorbed before adding more.",
+      "Continue this process until the rice is creamy and al dente, about 20-25 minutes.",
+      "Season with salt and black pepper to taste. Serve hot, garnished with fresh parsley."
+    ],
+    "nutrition_per_serving": {
+      "calories": 320,
+      "protein": 6,
+      "fat": 10,
+      "carbohydrates": 50,
+      "fiber": 2
+    },
+    "id": "48343508-1f7d-40ed-a6ab-4a53c3f1c047",
+    "author": "AI-generated",
+    "date_added": "2025-10-30"
+  },
+  {
+    "title": "Vegan Pesto Pasta",
+    "description": "A delightful pasta dish tossed in a vibrant basil pesto made with nuts, nutritional yeast, and olive oil, served with sun-dried tomatoes and fresh arugula.",
+    "cuisine": "Italian",
+    "course": "Main Course",
+    "dietary_tags": [
+      "Vegan",
+      "Nut-Free"
+    ],
+    "ingredients": [
+      "12 oz pasta of choice (spaghetti, penne, etc.)",
+      "2 cups fresh basil leaves",
+      "1/3 cup sunflower seeds",
+      "1/4 cup nutritional yeast",
+      "1/2 cup olive oil",
+      "2 cloves garlic",
+      "1/2 teaspoon salt",
+      "1/4 teaspoon black pepper",
+      "1/2 cup sun-dried tomatoes, chopped",
+      "2 cups fresh arugula (for serving)"
+    ],
+    "steps": [
+      "Cook the pasta according to package directions until al dente. Drain and set aside.",
+      "In a food processor, combine basil leaves, sunflower seeds, nutritional yeast, garlic, salt, and black pepper. Blend until finely chopped.",
+      "With the processor running, gradually add olive oil until the mixture is smooth and creamy.",
+      "In a large bowl, combine cooked pasta with the pesto and mix well.",
+      "Fold in the sun-dried tomatoes and serve on a bed of fresh arugula."
+    ],
+    "nutrition_per_serving": {
+      "calories": 450,
+      "protein": 14,
+      "fat": 18,
+      "carbohydrates": 60,
+      "fiber": 5
+    },
+    "id": "b1af7b24-9245-470d-9a03-4e910e34d0f7",
+    "author": "AI-generated",
+    "date_added": "2025-10-30"
+  },
+  {
+    "title": "Vegan Eggplant Parmesan",
+    "description": "Layers of breaded and baked eggplant slices, topped with marinara sauce and vegan cheese, creating a hearty and satisfying dish.",
+    "cuisine": "Italian",
+    "course": "Main Course",
+    "dietary_tags": [
+      "Vegan",
+      "Soy-Free"
+    ],
+    "ingredients": [
+      "2 large eggplants, sliced into 1/2 inch rounds",
+      "1 cup breadcrumbs",
+      "1/2 cup nutritional yeast",
+      "1 teaspoon Italian seasoning",
+      "1 teaspoon salt",
+      "1/2 teaspoon black pepper",
+      "1 cup marinara sauce",
+      "1 cup vegan mozzarella cheese, shredded",
+      "2 tablespoons olive oil"
+    ],
+    "steps": [
+      "Preheat oven to 400°F (200°C).",
+      "In a large bowl, combine breadcrumbs, nutritional yeast, Italian seasoning, salt, and black pepper.",
+      "Dip each eggplant slice in olive oil, then coat with breadcrumb mixture.",
+      "Place the coated eggplant slices on a baking sheet lined with parchment paper. Bake for 25-30 minutes, flipping halfway until golden and crispy.",
+      "In a baking dish, spread some marinara sauce on the bottom. Layer baked eggplant slices, marinara sauce, and vegan cheese. Repeat layers until all ingredients are used.",
+      "Bake in the preheated oven for another 20 minutes, until the cheese is melted and bubbly.",
+      "Let cool for a few minutes before serving."
+    ],
+    "nutrition_per_serving": {
+      "calories": 380,
+      "protein": 10,
+      "fat": 15,
+      "carbohydrates": 55,
+      "fiber": 6
+    },
+    "id": "54996a4e-3eec-4ad3-ae86-98bc5c429d4c",
+    "author": "AI-generated",
+    "date_added": "2025-10-30"
+  }
+]

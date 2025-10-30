@@ -1,0 +1,45 @@
+{
+  "name": "bitemind-recipes",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "BiteMind — AI-powered recipe dataset and automation toolkit with 10,000 structured recipes, dietary tagging, and smart AI generation.",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "npx ts-node getRecipes.ts",
+    "review": "npx ts-node reviewNewRecipes.ts",
+    "compile": "npx tsc",
+    "push": "git add . && git commit -m \"Auto-update recipes\" && git push origin main",
+    "start": "npm run fetch",
+    "setup": "npm install openai chalk uuid && npm install -g typescript ts-node",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4j69vdzbdd-collab/bitemind-recipes.git"
+  },
+  "keywords": [
+    "AI",
+    "recipes",
+    "dataset",
+    "typescript",
+    "openai",
+    "nutrition",
+    "automation",
+    "foodtech"
+  ],
+  "author": "Luke White",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4j69vdzbdd-collab/bitemind-recipes/issues"
+  },
+  "homepage": "https://github.com/4j69vdzbdd-collab/bitemind-recipes#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "openai": "^6.7.0",
+    "uuid": "^13.0.0"
+  }
+}
+
