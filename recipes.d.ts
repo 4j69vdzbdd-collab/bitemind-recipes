@@ -1,4 +1,4 @@
-// Auto-generated TypeScript types for PrepPal recipe dataset
+﻿// Auto-generated TypeScript types for BiteMind recipe dataset
 export interface Ingredient {
   quantity: number;
   unit: string;
@@ -52,3 +52,4 @@ export interface RecipeDataset {
   _meta: DatasetMeta;
   recipes: Recipe[];
 }
+

@@ -1,4 +1,4 @@
-import fs from "fs";
+﻿import fs from "fs";
 import path from "path";
 import readline from "readline";
 import { fileURLToPath } from "url";
@@ -15,32 +15,32 @@ function loadMain(): RecipeDataset {
   try {
     return JSON.parse(fs.readFileSync(MAIN_FILE, "utf-8"));
   } catch {
-    console.error(chalk.red("❌ Could not load all_recipes_10000.json"));
+    console.error(chalk.red("âŒ Could not load all_recipes_10000.json"));
     process.exit(1);
   }
 }
 
 function listNewFiles(): string[] {
   if (!fs.existsSync(NEW_RECIPES_DIR)) {
-    console.log(chalk.yellow("📁 No /new_recipes folder found."));
+    console.log(chalk.yellow("ðŸ“ No /new_recipes folder found."));
     return [];
   }
   const files = fs.readdirSync(NEW_RECIPES_DIR).filter((f) => f.endsWith(".json"));
-  if (files.length === 0) console.log(chalk.green("✅ No new recipe files found."));
+  if (files.length === 0) console.log(chalk.green("âœ… No new recipe files found."));
   return files;
 }
 
 function showFileSummary(file: string) {
   const fullPath = path.join(NEW_RECIPES_DIR, file);
   const data = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
-  console.log(chalk.cyan(`\n📂 ${file}`));
+  console.log(chalk.cyan(`\nðŸ“‚ ${file}`));
   if (Array.isArray(data)) {
     console.log(chalk.gray(`   ${data.length} recipes`));
     data.slice(0, 3).forEach((r: Recipe) =>
-      console.log(`   • ${chalk.bold(r.title)} (${chalk.magenta(r.cuisine)})`)
+      console.log(`   â€¢ ${chalk.bold(r.title)} (${chalk.magenta(r.cuisine)})`)
     );
   } else {
-    console.log(chalk.red("   ⚠️  Invalid JSON format"));
+    console.log(chalk.red("   âš ï¸  Invalid JSON format"));
   }
 }
 
@@ -50,23 +50,23 @@ function mergeFile(file: string) {
   const data = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
 
   if (!Array.isArray(data)) {
-    console.log(chalk.yellow(`⚠️  Skipping ${file}: not a valid recipe array.`));
+    console.log(chalk.yellow(`âš ï¸  Skipping ${file}: not a valid recipe array.`));
     return;
   }
 
   main.recipes.push(...data);
   main._meta.records = main.recipes.length;
   fs.writeFileSync(MAIN_FILE, JSON.stringify(main, null, 2), "utf-8");
-  console.log(chalk.green(`✅ Merged ${data.length} recipes into main dataset.`));
+  console.log(chalk.green(`âœ… Merged ${data.length} recipes into main dataset.`));
 
   fs.unlinkSync(fullPath);
-  console.log(chalk.red(`🗑️  Deleted ${file} after merge.`));
+  console.log(chalk.red(`ðŸ—‘ï¸  Deleted ${file} after merge.`));
 }
 
 function deleteFile(file: string) {
   const fullPath = path.join(NEW_RECIPES_DIR, file);
   fs.unlinkSync(fullPath);
-  console.log(chalk.red(`🗑️  Deleted ${file}`));
+  console.log(chalk.red(`ðŸ—‘ï¸  Deleted ${file}`));
 }
 
 // Interactive prompt
@@ -82,7 +82,7 @@ async function promptUser() {
     return;
   }
 
-  console.log(chalk.cyan("\n📋 Available files:"));
+  console.log(chalk.cyan("\nðŸ“‹ Available files:"));
   files.forEach((f, i) => console.log(`  [${i + 1}] ${f}`));
 
   rl.question(
@@ -98,7 +98,7 @@ async function promptUser() {
       const file = files[index];
 
       if (!file) {
-        console.log(chalk.red("❌ Invalid choice."));
+        console.log(chalk.red("âŒ Invalid choice."));
         return promptUser();
       }
 
@@ -111,5 +111,6 @@ async function promptUser() {
   );
 }
 
-console.log(chalk.bold.cyan("\n🔍 PrepPal — Review New Recipes\n"));
+console.log(chalk.bold.cyan("\nðŸ” BiteMind â€” Review New Recipes\n"));
 promptUser();
+

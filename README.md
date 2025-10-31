@@ -1,4 +1,4 @@
-# 🍽️ PrepPal Recipe Dataset — 10,000 Structured Recipes
+﻿# ðŸ½ï¸ BiteMind Recipe Dataset â€” 10,000 Structured Recipes
 
 A globally balanced dataset of **10,000 fully structured recipes**, designed for use in food apps, AI training, data analysis, and nutrition tools.
 
@@ -6,30 +6,30 @@ Each recipe includes detailed ingredients, steps, nutrition data, equipment, and
 
 ---
 
-## 📂 Dataset Structure
+## ðŸ“‚ Dataset Structure
 
 | File | Records | Description |
 |------|----------|-------------|
 | `all_recipes_10000.json` | 10,000 | Complete merged dataset |
-| `recipes_001_with_diet.json` → `recipes_010.json` | 1,000 each | Split-friendly recipe batches |
-| `recipes_index.json` | — | JSON index referencing all batches |
-| `recipes_summary.csv` | — | Cuisine counts and course nutrition averages |
-| `recipes.d.ts` | — | TypeScript type definitions for developers |
+| `recipes_001_with_diet.json` â†’ `recipes_010.json` | 1,000 each | Split-friendly recipe batches |
+| `recipes_index.json` | â€” | JSON index referencing all batches |
+| `recipes_summary.csv` | â€” | Cuisine counts and course nutrition averages |
+| `recipes.d.ts` | â€” | TypeScript type definitions for developers |
 
 ---
 
-## 🧠 Features
+## ðŸ§  Features
 
-- 🌎 Global cuisines (Asian, European, African, Middle Eastern, American, and more)  
-- 🍽️ Balanced courses (Breakfast, Lunch, Dinner, Snack, Dessert, Drink)  
-- 🏷️ Advanced dietary tagging: Vegan, Keto-Friendly, Low-Sodium, Diabetic-Friendly, Paleo-Style, Whole30, Low-FODMAP, etc.  
-- 📊 Nutrition data per serving (Calories, Protein, Carbs, Fat, Fiber, Sugar, Sodium)  
-- 🧩 Split-friendly design for API or incremental loading  
-- 💾 JSON format + CSV summary for easy analysis  
+- ðŸŒŽ Global cuisines (Asian, European, African, Middle Eastern, American, and more)  
+- ðŸ½ï¸ Balanced courses (Breakfast, Lunch, Dinner, Snack, Dessert, Drink)  
+- ðŸ·ï¸ Advanced dietary tagging: Vegan, Keto-Friendly, Low-Sodium, Diabetic-Friendly, Paleo-Style, Whole30, Low-FODMAP, etc.  
+- ðŸ“Š Nutrition data per serving (Calories, Protein, Carbs, Fat, Fiber, Sugar, Sodium)  
+- ðŸ§© Split-friendly design for API or incremental loading  
+- ðŸ’¾ JSON format + CSV summary for easy analysis  
 
 ---
 
-## 🧩 Schema Overview
+## ðŸ§© Schema Overview
 
 Each batch JSON (`recipes_###.json`) follows this structure:
 
@@ -77,3 +77,4 @@ Each batch JSON (`recipes_###.json`) follows this structure:
     }
   ]
 }
+
